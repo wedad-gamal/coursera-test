@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: monospace;
+  color: black; 
+  font-weight: bold;
+}
+
+#default-navbar{
+ background-color: #A9A9A9; 
+ color: :black;
+ border-radius: 0px;
+ border:2px solid black;
+}
+#brand-navbar{
+  color: black; 
+  font-size: 2em;
+}
+#brand-navbar a:link, #brand-navbar a:visited, #brand-navbar a:hover, #brand-navbar a:active {
+  color:#000;
+}
+div.navbar-collapse{
+ overflow: hidden;  
+}
+ul.navbar-nav{
+  background-color: white;
+  margin: 0px -16px 0px -16px;
+}
+div li {
+  border: 1px solid black
+}
+
+li a{
+   background-color: #E8E8E8;
+}
+li a:hover{
+  background-color: #DCDCDC;
+}
+h1{
+  font-weight: bold;
+}
+
+div.section-container{
+  background-color: #A9A9A9;
+  padding: 15px;
+  margin-top: 15px;
+  height: 1000px;
+}
+div.section{
+  background-color: #FFFFFF;  
+}
+div.title{
+  margin-bottom: 12px;
+  font-size: 1.5em
+}
+
